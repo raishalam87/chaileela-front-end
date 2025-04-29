@@ -1,0 +1,60 @@
+/* src/components/Services.css */
+
+#services {
+    padding: 20px;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border: 2px solid #c8e6c9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 280px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  .service-content h3 {
+    margin: 0;
+    color: #2e7d32;
+  }
+  
+  .service-content p {
+    color: #555;
+    margin: 10px 0 20px;
+  }
+  
+  .book-btn {
+    padding: 10px 16px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #1b5e20;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .service-card {
+      width: 90%;
+    }
+  }
+  
